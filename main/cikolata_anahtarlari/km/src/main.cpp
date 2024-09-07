@@ -11,7 +11,7 @@ void debug_print(PCSTR text)
 
 NTSTATUS DriverEntry()
 {
-	debug_print("[+] Entry to kernel.");
+	debug_print("[+] Entry to kernel.\n");
 
 	return STATUS_SUCCESS;
 }
